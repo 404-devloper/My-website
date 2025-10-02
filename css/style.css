@@ -136,7 +136,24 @@
             background: var(--text);
             transform: translateY(-3px);
         }
+        .preview {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 28px;
+            background: var(--highlight);
+            color: var(--primary);
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
         
+        .preview:hover {
+            background: var(--text);
+            transform: translateY(-3px);
+        }
         /* About Section */
         .about {
             padding: 100px 10%;
@@ -280,11 +297,13 @@
         }
         
         .project-card h3 {
+                text-align: center;
             font-size: 24px;
             margin-bottom: 10px;
         }
         
         .project-card p {
+        text-align: center;
             font-size: 16px;
             line-height: 1.6;
         }
@@ -457,4 +476,5 @@
                 width: 250px;
                 height: 250px;
             }
+
         }
